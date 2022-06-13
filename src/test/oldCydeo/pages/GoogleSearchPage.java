@@ -17,7 +17,4 @@ public class GoogleSearchPage {
     @FindBy(name = "q")
     public WebElement searchBox;
 
-    @FindBy(xpath = "//div[.='I agree']")
-    public WebElement IAggreeButton;
-
 }

@@ -15,7 +15,7 @@ public class GoogleStepDefinitions {
 
     @When("user types apple and clicks enter")
     public void user_types_and_clicks_enter2() {
-        googleSearchPage.IAggreeButton.click();
+
         googleSearchPage.searchBox.sendKeys("apple" + Keys.ENTER);
 
     }
